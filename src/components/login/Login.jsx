@@ -1,5 +1,5 @@
 import React from "react";
-import backGround from "../../img/bg.png";
+// import backGround from "../../img/bg.png";
 import Logo from "../../img/logo.png";
 import "./style.css";
 const Login = () => {
@@ -8,8 +8,8 @@ const Login = () => {
       <div className='container-fluid'>
         <div className='row'>
           <div className='col-8'>
-            <div>
-              <img src={backGround} className='bg' alt='bg' />
+            <div className='bg'>
+              {/* <img src={backGround} className='bg' alt='bg' /> */}
             </div>
           </div>
           <div className='col-4'>
